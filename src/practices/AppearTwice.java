@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 public class AppearTwice {
 
+
     public static void main(String[] args) {
-        String sentence = "Hello Hello world!";
-        String trg = "Hello";
+        String sentence = "Java is very good language in automation, but java very has some probblems";
+        String trg = "very";
         System.out.println(appearsTwice(trg, sentence));
     }
 
@@ -31,4 +32,5 @@ public class AppearTwice {
         return b;
 
     }
+
 }
