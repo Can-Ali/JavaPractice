@@ -5,8 +5,8 @@ import java.util.*;
 public class CountLetters {
 
     public static void main(String[] args) {
-        int [] numbers = {5, 2, 3, 100, 98, 10};
-        sortArrayWithoutArraysSortMethod(numbers);
+//        int [] numbers = {5, 2, 3, 100, 98, 10};
+//        sortArrayWithoutArraysSortMethod(numbers);
         Map<String, Integer> myMap = countLetters("level");
         System.out.println(myMap);
         System.out.println("Java is COOL");
@@ -30,7 +30,7 @@ public class CountLetters {
         System.out.println(Arrays.toString(nums));
     }
 
-    // String name = "Khalili";
+    // String name = "Khalilil";
     // write a method which explains how many times each letter is repeated?
     // K = 1; , h = 1; a = 1; l = 2; i = 2;
     public static Map<String, Integer> countLetters(String name){
@@ -46,4 +46,6 @@ public class CountLetters {
         }
         return map;
     }
+
+
 }
