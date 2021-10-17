@@ -6,14 +6,15 @@ public class ExtractNumbers {
 
         String x="aa23aa34kh7";
 
-    //			x.replaceAll("a", "");
-    //			x=x.replaceAll("[^0123456789]","");
+//        x.replaceAll("a", "");
+//        x=x.replaceAll("[^0123456789]","");
 
     //			System.out.println(x);
 
         System.out.println(extractNum(x));
 
 }
+
 
 //			public static String extractNum(String s) {
 //				String result="";
