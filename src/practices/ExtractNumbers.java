@@ -33,6 +33,6 @@ public class ExtractNumbers {
         return result;
 
     }
-    // yeni degisikler yapip senario olussturduk
+
 
 }
