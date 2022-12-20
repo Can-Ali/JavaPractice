@@ -35,4 +35,8 @@ public class ReverseLetters {
         word+=each;
                 return word;
     }
+
+    avbkjbvVlk
+
+    //burda ada degisiklik yaptik
 }
